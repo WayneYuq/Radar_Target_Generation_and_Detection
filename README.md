@@ -4,10 +4,12 @@
 
 A simulation of radar detection in matlab. Through the configuration of FMCW and assign the initial position and velocity, perform 2d FFT to the beat signal and CA_CFAR to the RDM to display the distance and velocity of the target. This is a project design by Udacity.
 
-![2D_FFT](result_images/range_doppler_map.jpg)
+<img width="600" src="result_images/range_doppler_map.jpg"/>
+
 _The RDM(Range Doppler Map) after 2D FFT_
 
-![1st_FFT](result_images/first_fft.jpg)
+<img width="500"  src="result_images/first_fft.jpg"/>
+
 _The first FFT processing the beat signal, remember keep only half of the signal because of the Nyquist Frequency_
 
 ### Usage
